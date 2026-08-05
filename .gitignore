@@ -1,0 +1,21 @@
+# Virtual environment & caches
+.venv/
+__pycache__/
+*.pyc
+.cache/
+
+# Large data and model outputs
+data/
+artifacts/
+outputs/
+validation_diagnostics/
+*.zip
+
+# Exclude ALL documentation files as requested
+*.md
+*.docx
+*.txt
+MANUSCRIPT*
+README*
+walkthrough.md
+implementation_plan.md
